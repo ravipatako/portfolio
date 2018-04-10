@@ -5,11 +5,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Ravi Pathak | Home</title>
-        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <meta name="description" content="Portfolio page for professional Web Designer and Social Media Marketer Ravi Pathak">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <div id="wrapper">
         <header>
             <nav>
                 <ul>
@@ -22,13 +21,47 @@
             
             </nav>
         </header>
+            <div class="banner">
+                 
+                <canvas id="myCanvas" width="1920px" height="200px" style="border:1px solid #d3d3d3;">
+                    Your browser does not support the HTML5 canvas tag.</canvas>
+                
+                
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    // Create gradient
+                    var grd = ctx.createLinearGradient(0,0,200,0);
+                    grd.addColorStop(0,"red");
+                    grd.addColorStop(1,"white");
+                    // Fill with gradient
+                    ctx.fillStyle = grd;
+                    ctx.fillRect(10,10,150,80);
+                </script>
+            </div>
             
-            <h1>The idea of the Website </h1>
-            <p>Ever since this assignment has been given I have not been able to think of a layout. I am still thinking of how I would want but it will be a while until I get there. The only thing I know for sure is I want  to screenshot each major update to the site so once it is constructed I can see the way it all came together.</p>
-            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/mclaren-720s-gets-frozen-gold-hre-wheels-looks-mesmerizing_3.jpg" alt="Mclaren 720s with its amazing features">
+            
+            <div class="main">
+                
+            <video width="1920" height="1080" controls>
+                <source src="fgcu.mp4" type="video/mp4">    
+                
+                </video>   
+                
+                
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="blue" />
+                </svg>
+                
+                
+            </div>
             
             
+            <div class="col">
+            </div>
+        
             
-        </div>
+        
+    
     </body>
 </html>
