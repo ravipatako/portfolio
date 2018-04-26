@@ -18,7 +18,7 @@ nav {
   width:100%;
   display: block;
   float:left; 
-  background-color: #d0d0d0;
+  background-color: #0d5f9e;
 }
 nav ul {
     margin-left: 750px;
@@ -31,14 +31,14 @@ nav li {
 }
 
 a {
-    color: #45A29E;
+    color: #FFF;
     text-decoration: none;
     text-indent: none;
     padding: 0;
 }
 
 nav a:hover {
-    background-color: #0B0C10;
+    background-color: #023b66;
     color: #FFF;
     padding: 5px 20px;
 }
@@ -47,10 +47,9 @@ nav a:hover {
 .banner {
     float: left;
     margin-top: 250px;
-    padding:0;
-    margin: 0;
-    background-color: cadetblue;
+    background-color: #000;
     width: 100%;
+    margin: 0;
 }
 
 canvas {
@@ -73,7 +72,7 @@ h1 {
     width: 250px;
     float: left;
     margin-left: 500px;
-    color: #45A29E;
+    color: #FFF;
 }
 
 footer {
@@ -190,7 +189,7 @@ p {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #45A29E;;
+  background: #bdc4ce;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -203,4 +202,9 @@ p {
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
     
+}
+.photo_banner {
+    width: 75%;
+    margin-left: 250px;
+    height: 100%;
 }
