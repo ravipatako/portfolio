@@ -15,11 +15,10 @@ header {
 
 nav { 
   padding: 30px 0 0 0;
-  background-color: #BCD;
   width:100%;
   display: block;
   float:left; 
-  background-color: #d0d0d0;
+  background-color: #0B0C10;
 }
 nav ul {
     margin-left: 750px;
@@ -32,11 +31,18 @@ nav li {
 }
 
 a {
-    color: #000;
+    color: #45A29E;
     text-decoration: none;
     text-indent: none;
     padding: 0;
 }
+
+nav a:hover {
+    background-color: #0B0C10;
+    color: #FFF;
+    padding: 5px 20px;
+}
+
 
 .banner {
     float: left;
@@ -59,10 +65,15 @@ canvas {
     
 }
 
+#main {
+    margin-left: 15%;
+}
+
 h1 {
     width: 250px;
     float: left;
     margin-left: 500px;
+    color: #45A29E;
 }
 
 footer {
@@ -70,7 +81,7 @@ footer {
     background-color: #d0d0d0;
     padding: 0 auto;
     margin: 0 auto;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 
 p {
@@ -161,4 +172,35 @@ p {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #45A29E;;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+ 
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+    
 }
