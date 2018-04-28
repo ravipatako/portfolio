@@ -1,7 +1,7 @@
 
 body {
     width: 100%;
-    padding: auto;
+    
     margin: auto;
     color: black;
     background-image:  url("crosses.png");
@@ -10,7 +10,7 @@ body {
 header {
     
     display: block;
-    float: clear;
+
 }
 
 nav { 
@@ -21,7 +21,7 @@ nav {
   background-color: #0d5f9e;
 }
 nav ul {
-    margin-left: 750px;
+    margin-left: 650px;
 
 }
 nav li {
@@ -31,9 +31,11 @@ nav li {
 }
 
 a {
-    color: #FFF;
     text-decoration: none;
-    text-indent: none;
+}
+
+nav a {
+    color: #FFF;
     padding: 0;
 }
 
@@ -65,22 +67,86 @@ canvas {
 }
 
 #main {
-    margin-left: 15%;
+   width: 1430px;
+    height: 500px;
+    margin-left: 250px;
+    float: left;
+    background-color: #d0d0d0;
+    
+}
+
+#side {
+      width: 66%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #CDF;
+    text-align: center;
+}
+
+#side a {
+    color: #000;
+}
+
+#side p {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 35%;
+
+}
+
+#col {
+    width: 33.9%;
+    height: 100%;
+    float: right;
 }
 
 h1 {
     width: 250px;
     float: left;
-    margin-left: 500px;
+    margin-left: 400px;
     color: #FFF;
+}
+
+.twitter {
+    float: left;
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+
+#bottom {
+    width: 100%;
+    float: left;
+    background-color: #023b66;
+}
+
+#button{
+    background-color: #0d5f9e;
+    border: none;
+    color: white;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 135px;
+    cursor: pointer;
 }
 
 footer {
     width: 100%;
     background-color: #d0d0d0;
-    padding: 0 auto;
+    padding: 0 ;
     margin: 0 auto;
     margin-bottom: -20px;
+    float: left;
+}
+
+.icons {
+    width: 15%;
+    margin-left: 45%;
+    color: #000;
+    padding-bottom: 3%;
 }
 
 p {
