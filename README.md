@@ -1,4 +1,2 @@
 # Portfolio
-
-Hello, here is the work done behind my portfolio website.
-Be sure to connect with me on LinkedIn 
+This is code behind the portfolio website, it was created from a template. I have yet to continue on the site but I try to update it regulary.
